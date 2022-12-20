@@ -1,0 +1,234 @@
+*{
+	transition: all 0.5s ease;
+}
+
+
+
+body{
+height: 2000px;
+}
+header{
+	background-image: url('../images/latest_3.jpg');
+	background-size: cover;
+}
+/*main navbar*/
+.navbar{
+	min-height: 70px;
+}
+.navbar-inverse{
+	background-color:#35424A;
+	border-color: #017ab9;
+	color:#FEFEFE;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:#FEFEFE;
+	font-size: 18px;
+	padding-top: 25px; padding-bottom: 25px;
+}
+.navbar-inverse .navbar-nav > .active > a
+, .navbar-inverse .navbar-nav > .active > a:hover
+, .navbar-inverse .navbar-nav > .active > a:focus{
+	color:#FFB606;
+	background-color:#35424A; 
+}
+.navbar-inverse .navbar-brand{
+	color:#FFB606;
+	font-size: 30px;
+	line-height: 40px;
+}
+.navbar-inverse .navbar-brand span{
+	color:#FFf;
+}
+.dropdown-menu{
+	min-width: 200px;
+	background-color:#35424A;
+}
+.navbar-right .dropdown-menu{
+	left:0;
+	right: auto;
+}
+.dropdown-menu > li > a{
+	color:#fff;
+	padding: 7px 20px;
+}
+.dropdown-menu > li > a:hover , .dropdown-menu > li > a:focus{
+	background-color:#080808;
+	padding-left: 30px;
+	-webkit-transition: padding 0.5s ease;
+	transition: padding 0.5s ease;
+	color:#fff;
+}
+
+
+.navbar-toggle {
+   margin-top: 19px;
+}
+
+
+/*---------------------- Start section Our SERVICES-------------------------*/
+.services{
+	padding-bottom: 60px;
+}
+.services h1{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color:#CE463C;
+}
+/*.services h1::after{
+	background: #A7D027;
+	display: block;
+	content: "";
+	position: absolute;
+	width: 202px;
+    right: 580px;
+    height: 4px;
+	color:#A7D027;
+	border-radius: 5px;
+
+}*/
+.services .box-service img{
+	height: 300px;
+	width:400px;
+	border-radius: 0 100px ;
+}
+.services .box-service .define h2{
+	line-height: 40px;
+	color:#444;
+}
+.services .box-service .define p{
+	line-height: 52px;
+	color:#888;
+}
+/* media in midum screen*/
+@media (min-width: 768px){
+.lead {
+    font-size: 20px;
+}}
+
+/******---------------Start Price Table**************/
+.papular-course{background: #eee;padding-top:40px;padding-bottom: 40px;}
+.papular-course .h1{
+margin-bottom: 40px;
+color:#CE463C;
+}
+.papular-course .course-box{
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-bottom: 15px;
+} 
+.papular-course .course-box h2{
+	padding: 5px 0 15px;
+}
+.papular-course .course-box p:hover {
+	-webkit-transform:scale(1.1,1.1) rotate(360deg);
+	-moz-transform:scale(1.1,1.1) rotate(360deg);
+	-o-transform:scale(1.1,1.1) rotate(360deg);
+	transform:scale(1.1,1.1) rotate(360deg);
+	border:2px solid #dfdfdf;
+}
+.papular-course .course-box p{
+	font-size: 35px;
+	font-weight: bold;
+	color:#666;
+	width:100px;
+	height: 100px;
+	background: #f3f3f3;
+	line-height: 100px;
+	border-radius: 50%;
+   border:2px solid #fff;
+   transition: all 0.5s ease; 
+}
+.papular-course .course-box ul{
+	line-height:250%;
+	font-size: 18px;
+}
+.papular-course .course-box a{
+	margin-bottom:5px; 
+}
+/********* start  section Our-team---------***/
+.our-team{
+	background: url("../images/team1.jpg ") no-repeat center center fixed;
+	min-height: 600px;
+}
+.our-team .h1{
+	padding-bottom: 55px;
+}
+.our-team .team{
+	background: rgba(2,2,2,.8);
+	min-height: 600px;
+	color:#fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.our-team .team .person{margin-bottom: 40px;}
+/*---------------------Start Section Our skills---------------------------*/
+.our-skills{padding-top: 40px;padding-bottom: 70px;
+}
+.our-skills .h1{
+	padding-bottom: 40px;
+	color:#CE463C;
+}
+.our-skills .skills-progress{
+	margin-bottom: 40px;
+}
+.our-skills h3{margin-top: 0;}
+.our-skills .progress{height: 33px;}
+.progress-bar{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 33px;
+	text-align: left;
+	text-indent: 10px;
+}
+/*---------------------- Start Section Subscribe ---------------------------*/
+.subscribe{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #ce463c;
+}
+.subscribe h2{
+	color:#fff;
+	padding-top: 33px;
+}
+.subscribe form{
+	padding-top: 50px;
+}
+.subscribe form input{
+	margin-bottom: 48px;
+}
+.subscribe form  button{    margin-top: -47px;}
+/*------------------- Start Section Footer----------------------------------*/
+footer{
+	font-family:cursive;
+	background-color:#35424A;
+	height: 80px;
+	line-height: 80px;
+	color:#fff;
+}
+footer span{
+	color:#CE3A3C;
+}
+/*-------------------------Start Section scrolling----------------------------*/
+/*---------- start Scrolling--------------------*/
+.scrolling{
+
+	width:40px;
+	height: 40px;
+	position:fixed;
+	right:10px;
+	bottom:40px;   
+	background-color:#333;
+	color:#EC9608; 
+	border-radius: 10px;
+	display: none;
+	cursor: pointer;
+}
+.scrolling .fa-chevron-up{
+	padding: 10px;
+	text-align: center;
+}
+.scrolling:hover{
+	background-color: #EC9608;
+	color: #fff;
+}
